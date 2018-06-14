@@ -6,9 +6,12 @@ CSS GRADIENT ANIMATOR
 
 Works well for all device forms, till there is browser support.
 
-External Library(color-picker) belongs to-->
-(https://tovic.github.io/color-picker) 
+[External Library(color-picker) belongs to-->](https://tovic.github.io/color-picker) 
 
 
 Made with <3 by 7ellipsis.
 (https://github.com/7ellipsis)
+
+
+Head to the following link for Demo->>
+https://7ellipsis.github.io/
