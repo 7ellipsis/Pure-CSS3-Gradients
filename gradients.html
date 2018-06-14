@@ -8,10 +8,24 @@
     <link href="color-picker.min.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Gradient Animator</title>
     <style>
-   
-   
+   #footer
+   {
+       bottom: 0px;
+       width: 100%;
+       color:ivory;
+       position:absolute;
+       opacity:0.9;
+       filter: contrast(100%);
+       filter: brightness(100%)
+   }
+   #ontop
+   {
+       position:relative;
+       z-index: 1;
+   }
     </style>
 </head>    
 <body>
@@ -179,7 +193,21 @@ picker.on("change", function(color) {
 });
 
     </script>
-   
+    <div class="container-fluid">
+   <div class="row">
+      
+<footer style="background-color: black" id="footer">
+       <center> <span id="ontop">
+        <a href="https://www.facebook.com/aashay7" target="_blank"><i class="fa fa-facebook-square"></i></a>&nbsp&nbsp&nbsp&nbsp
+            <a href="https://github.com/7ellipsis" target="_blank"><i class="fa fa-github"></i></a>&nbsp&nbsp&nbsp&nbsp
+                <a href="https://www.instagram.com/the.fenris/" target="_blank"><i class="fa fa-instagram"></i></a>&nbsp&nbsp&nbsp&nbsp
+                    <a href="https://www.linkedin.com/in/ashay-mandwarya-7094a9a4/" target="_blank"><i class="fa fa-linkedin-square"></i></a>&nbsp&nbsp&nbsp&nbsp
+                        <a href=""> <i class="fa fa-medium"></i></a>&nbsp&nbsp&nbsp&nbsp
+                            <a href="https://www.quora.com/profile/Ashay-Mandwarya" target="_blank"><i class="fa fa-quora"></i></a>&nbsp&nbsp&nbsp&nbsp
+        </span></center>
+</footer>
+   </div>
+   </div>
 </body>
 </html>
 
